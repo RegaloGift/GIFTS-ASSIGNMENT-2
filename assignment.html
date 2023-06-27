@@ -2,28 +2,43 @@
 <html>
     <head>
     <title>WEB DEVELOPMENT ASSIGNMENT</title>
+    <link rel="stylesheet" href="assignment.css">
    </head>
 <body>
+    <div class="box">
     <h1>This is the first heading</h1>
     <h2>This is the second heading</h2>
     <h3>This is the third heading</h3>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellendus impedit, neque qui magni quidem reprehenderit, hic dolorem excepturi odit</p>
-    <a href="www.lorem.com">visit the lorem page</a>
+   </div>
+     
+   <div class="box-1">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellendus impedit, neque qui magni quidem reprehenderit, hic dolorem excepturi odit Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem recusandae quia repellat consequuntur enim beatae quibusdam! Vel placeat ratione suscipit veniam fugit omnis ut ea, est similique voluptatibus. Recusandae, eveniet!</p>
+   <a href="www.lorem.com">visit the lorem page</a>
+    </div>
     <br>
+    <div>
     <img src="./images.jpg">
+</div>
+   
+    <br>
+     <div class="lists">
+     <h2>List items</h2>
     <ul>
         <li>list item 1</li>
         <li>list item 2</li>
         <li>list item 3</li>
         <li>list item 4</li>
     </ul>
+
     <ol>
         <li>list item 1</li>
         <li>list item 2</li>
         <li>list item 3</li>
         <li>list item 4</li>
     </ol>
+</div>
+  <div>
+    <div class="Table">
     <table>
         <thead>
             <tr>
@@ -50,40 +65,35 @@
             </tr>
 
         </tbody>
-    </table>
-      <br>
-    <form>
-         <div>
-        <label for="fname">First Name</label>
-        <input type="text"id="fname" name="fname" placeholder="spongebob" required>
     </div>
+    </table>
+</div>
 
-        <br>
-
-         <div>
-        <label for="pass">Password</label>
+      <br>
+    <form class="my-form">
+        
+         <div class="form-group">
+        <label>First Name</label>
+        <input type="text"id="fname" name="fname">
+    </div>
+       <div class="form-group">
+        <label>Password</label>
         <input type="password"id="pass" name="pass" maxlength="12" required>
     </div>
-
-    <br>
-
-         <div>
-        <label for="email">Email</label>
-        <input type="email"id="email" name="email" placeholder="sp@gmail.com"required>
+    <div class="form-group">
+        <label>Email</label>
+        <input type="email"id="email">
     </div>
-
-    <br>
-
-         <div>
-        <label for="phone">phone</label>
-        <input type="tel"id="phone" name="phone" placeholder="08000000000"required>
+         <div class="form-group">
+        <label>phone</label>
+        <input type="tel"id="phone" name="phone">
     </div>
-    <br>
-     <div>
+   <div class="form-group">
         <label>Message</label>
         <textarea name="Message"></textarea>
      </div>
          <br>
+         <div>
          <p>Gender</p>
          <input type="radio" id="gender" name="gender" value="female"/>Male
          <br>
@@ -91,7 +101,8 @@
          <br>
          <input type="radio" id="gender" name="gender" value="others"/>Others
          <br>
-         
+        </div>
+
          <div>
         <label for="fsubject">Favorite Subject:</label>
         <select id="fsubject" name="fsubject" required>
@@ -99,21 +110,25 @@
             <option value="Science">Science</option>
             <option value="Graphics">Graphics</option>
             <option value="English">English</option>
-    </div>
-       <br>
+        </div>
+
+       
+    <br>
        <div>
         <!--I dont know why my checkbox is not working-->
         <label for="Remember">Remember My Information:</label>
           <input type="checkbox" id="Remember" value="Remember">
           </div>
 
+
     
     <br>
     <div>
-    <input type="submit">
+    <input class="button" type="submit" value="submit" name="">
     </div>
-
+    
 </form>
+</div>
 </body>
 
 </html>
